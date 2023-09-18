@@ -1,0 +1,109 @@
+.navbar{
+    background: none !important;
+    margin-top: 50px;
+}
+.nav-link{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0px 5px;
+    color: blueviolet;
+}
+
+.logo_img{
+    width: 100px;
+}
+
+nav .navbar-nav{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(140, 141, 240, 0.19);    
+}
+
+.dropdown-divider{
+    background: #DFDFDF;
+    border: 0.5px solid #DFDFDF;
+    width: 80%;
+    margin: auto;
+}
+.dropdown-item{
+    /* font-family: Baloo Da 2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 4px; */
+
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 5px 0px;
+    color: blueviolet;
+    
+}
+.dropdown-menu{
+    border: 0.5px solid rgb(120, 193, 241);
+
+}
+
+
+
+.search-icon-btn{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #f8f9fa;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(140, 141, 240, 0.19), 0 6px 20px 0 rgba(140, 141, 240, 0.19);
+    text-align: center;
+    margin: 10px;
+}
+
+
+.phone-nav{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
+
+
+
+
+/* responsive css here  */
+
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .dropdown-menu{
+        width: 250px;
+        margin-left: 100px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
